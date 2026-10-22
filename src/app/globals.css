@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Para cambiar el color de acento del sitio, edita solo estas dos líneas. */
+:root {
+  --accent: #4f46e5;
+  --accent-dark: #4338ca;
+}
+
+@theme inline {
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* El header es fijo: deja espacio para que no tape el título de cada sección */
+section[id] {
+  scroll-margin-top: 4rem;
+}
+
+body {
+  background: #ffffff;
+  color: #1f2937;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
