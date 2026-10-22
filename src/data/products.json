@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cobija-cloud",
+    "nombre": "Cobija Cloud",
+    "categoria": "Cobijas",
+    "precio": 120000,
+    "descripcion": "Cobija suave y liviana, ideal para las noches frías de Bogotá.",
+    "imagenes": ["/images/cobija-cloud-1.svg", "/images/cobija-cloud-2.svg"]
+  },
+  {
+    "id": "cobija-nube",
+    "nombre": "Cobija Nube Doble",
+    "categoria": "Cobijas",
+    "precio": 185000,
+    "descripcion": "Cobija doble cara con relleno térmico para cama doble.",
+    "imagenes": ["/images/cobija-nube-1.svg", "/images/cobija-nube-2.svg"]
+  },
+  {
+    "id": "manta-andes",
+    "nombre": "Manta Andes",
+    "categoria": "Mantas",
+    "precio": 95000,
+    "descripcion": "Manta tejida para el sofá, con flecos en los extremos.",
+    "imagenes": ["/images/manta-andes-1.svg", "/images/manta-andes-2.svg"]
+  },
+  {
+    "id": "manta-sabana",
+    "nombre": "Manta Sabana",
+    "categoria": "Mantas",
+    "precio": 89000,
+    "descripcion": "Manta de algodón ligera para cualquier época del año.",
+    "imagenes": ["/images/manta-sabana-1.svg", "/images/manta-sabana-2.svg"]
+  },
+  {
+    "id": "cojin-lino",
+    "nombre": "Cojín Lino",
+    "categoria": "Cojines",
+    "precio": 45000,
+    "descripcion": "Cojín decorativo en lino con funda removible.",
+    "imagenes": ["/images/cojin-lino-1.svg", "/images/cojin-lino-2.svg"]
+  },
+  {
+    "id": "cojin-terciopelo",
+    "nombre": "Cojín Terciopelo",
+    "categoria": "Cojines",
+    "precio": 52000,
+    "descripcion": "Cojín en terciopelo suave, perfecto para dar color a la sala.",
+    "imagenes": ["/images/cojin-terciopelo-1.svg", "/images/cojin-terciopelo-2.svg"]
+  },
+  {
+    "id": "sabanas-algodon",
+    "nombre": "Set de Sábanas Algodón",
+    "categoria": "Ropa de cama",
+    "precio": 210000,
+    "descripcion": "Set de sábanas de algodón de 300 hilos, para cama doble.",
+    "imagenes": ["/images/sabanas-algodon-1.svg", "/images/sabanas-algodon-2.svg"]
+  },
+  {
+    "id": "duvet-blanco",
+    "nombre": "Duvet Blanco",
+    "categoria": "Ropa de cama",
+    "precio": 260000,
+    "descripcion": "Duvet con funda en tono blanco, cálido y fácil de lavar.",
+    "imagenes": ["/images/duvet-blanco-1.svg", "/images/duvet-blanco-2.svg"]
+  }
+]
