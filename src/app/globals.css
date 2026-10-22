@@ -1,26 +1,27 @@
 @import "tailwindcss";
 
+/* Para cambiar el color de acento del sitio, edita solo estas dos líneas. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --accent: #4f46e5;
+  --accent-dark: #4338ca;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+/* El header es fijo: deja espacio para que no tape el título de cada sección */
+section[id] {
+  scroll-margin-top: 4rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #1f2937;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
