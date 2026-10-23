@@ -5,10 +5,10 @@ export default function Hero() {
     <section id="inicio" className="bg-gray-50">
       <div className="mx-auto max-w-6xl px-4 py-16 text-center md:py-24">
         <h1 className="text-3xl font-bold leading-tight md:text-5xl">
-          Textiles para tu hogar, hechos para abrigarte
+          Textiles personalizados que abrigan y cuentan tu historia
         </h1>
         <p className="mx-auto mt-4 max-w-xl text-base text-gray-600 md:text-lg">
-          Cobijas, mantas, cojines y ropa de cama desde Bogotá para toda
+          Cobijas, cojines, toallas y ropa con bordado o estampado. Desde Bogotá para toda
           Colombia.
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
