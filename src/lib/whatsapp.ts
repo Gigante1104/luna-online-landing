@@ -13,9 +13,10 @@ function buildLink(message: string): string {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
-// Link para un producto: incluye nombre, categoría y precio.
+// Link para un producto: incluye nombre y categoría, y el precio si existe.
 export function getProductWhatsAppLink(product: Product): string {
-  const message = `Hola Luna Online, me interesa la ${product.nombre} (${product.categoria}) a ${formatPrice(product.precio)} COP. ¿Está disponible?`;
+  const price = product.precio ? ` a ${formatPrice(product.precio)} COP` : "";
+  const message = `Hola Luna Online, me interesa ${product.nombre} (${product.categoria})${price}. ¿Podrían darme más información?`;
   return buildLink(message);
 }
 
