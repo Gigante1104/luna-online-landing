@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Material del cliente con posibles derechos de autor: solo local, no se sube
+/docs/

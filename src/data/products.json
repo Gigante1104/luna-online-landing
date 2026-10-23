@@ -1,66 +1,242 @@
 [
   {
-    "id": "cobija-cloud",
-    "nombre": "Cobija Cloud",
+    "id": "cobija-aurora",
+    "nombre": "Cobija Aurora",
     "categoria": "Cobijas",
-    "precio": 120000,
-    "descripcion": "Cobija suave y liviana, ideal para las noches frías de Bogotá.",
-    "imagenes": ["/images/cobija-cloud-1.svg", "/images/cobija-cloud-2.svg"]
+    "descripcion": "Cobija suave de ejemplo para el sofá o la cama.",
+    "materiales": [
+      "Felpa suave"
+    ],
+    "grosor": [
+      "Una capa",
+      "Doble capa"
+    ],
+    "tamanos": [
+      "Pequeña",
+      "Mediana",
+      "Grande"
+    ],
+    "personalizacion": [
+      "Bordado"
+    ],
+    "imagenes": [
+      "/images/cobija-aurora-1.svg",
+      "/images/cobija-aurora-2.svg"
+    ]
   },
   {
-    "id": "cobija-nube",
-    "nombre": "Cobija Nube Doble",
+    "id": "cobija-brisa",
+    "nombre": "Cobija Brisa",
     "categoria": "Cobijas",
-    "precio": 185000,
-    "descripcion": "Cobija doble cara con relleno térmico para cama doble.",
-    "imagenes": ["/images/cobija-nube-1.svg", "/images/cobija-nube-2.svg"]
+    "descripcion": "Cobija liviana de ejemplo con diseño estampado.",
+    "materiales": [
+      "Microfibra"
+    ],
+    "grosor": [
+      "Una capa"
+    ],
+    "tamanos": [
+      "Mediana",
+      "Grande"
+    ],
+    "personalizacion": [
+      "Estampado"
+    ],
+    "imagenes": [
+      "/images/cobija-brisa-1.svg",
+      "/images/cobija-brisa-2.svg"
+    ]
   },
   {
-    "id": "manta-andes",
-    "nombre": "Manta Andes",
-    "categoria": "Mantas",
-    "precio": 95000,
-    "descripcion": "Manta tejida para el sofá, con flecos en los extremos.",
-    "imagenes": ["/images/manta-andes-1.svg", "/images/manta-andes-2.svg"]
+    "id": "kit-bebe-test",
+    "nombre": "Kit Bebé Test",
+    "categoria": "Kits",
+    "descripcion": "Kit de ejemplo con cobija, cojín y toalla para bebé.",
+    "incluye": [
+      "Cobija pequeña",
+      "Cojín",
+      "Toalla"
+    ],
+    "personalizacion": [
+      "Nombre bordado"
+    ],
+    "imagenes": [
+      "/images/kit-bebe-test-1.svg",
+      "/images/kit-bebe-test-2.svg"
+    ]
   },
   {
-    "id": "manta-sabana",
-    "nombre": "Manta Sabana",
-    "categoria": "Mantas",
-    "precio": 89000,
-    "descripcion": "Manta de algodón ligera para cualquier época del año.",
-    "imagenes": ["/images/manta-sabana-1.svg", "/images/manta-sabana-2.svg"]
+    "id": "kit-mascota-test",
+    "nombre": "Kit Mascota Test",
+    "categoria": "Kits",
+    "descripcion": "Kit de ejemplo con cobija y cojín para mascotas.",
+    "incluye": [
+      "Cobija pequeña",
+      "Cojín"
+    ],
+    "personalizacion": [
+      "Nombre bordado"
+    ],
+    "imagenes": [
+      "/images/kit-mascota-test-1.svg",
+      "/images/kit-mascota-test-2.svg"
+    ]
   },
   {
-    "id": "cojin-lino",
-    "nombre": "Cojín Lino",
+    "id": "cojin-nube",
+    "nombre": "Cojín Nube",
     "categoria": "Cojines",
-    "precio": 45000,
-    "descripcion": "Cojín decorativo en lino con funda removible.",
-    "imagenes": ["/images/cojin-lino-1.svg", "/images/cojin-lino-2.svg"]
+    "descripcion": "Cojín decorativo de ejemplo con funda removible.",
+    "materiales": [
+      "Felpa suave"
+    ],
+    "tamanos": [
+      "30 cm x 30 cm",
+      "45 cm x 45 cm"
+    ],
+    "personalizacion": [
+      "Bordado"
+    ],
+    "imagenes": [
+      "/images/cojin-nube-1.svg",
+      "/images/cojin-nube-2.svg"
+    ]
   },
   {
-    "id": "cojin-terciopelo",
-    "nombre": "Cojín Terciopelo",
+    "id": "cojin-luna",
+    "nombre": "Cojín Luna",
     "categoria": "Cojines",
-    "precio": 52000,
-    "descripcion": "Cojín en terciopelo suave, perfecto para dar color a la sala.",
-    "imagenes": ["/images/cojin-terciopelo-1.svg", "/images/cojin-terciopelo-2.svg"]
+    "descripcion": "Cojín de ejemplo con diseño estampado.",
+    "materiales": [
+      "Poliéster"
+    ],
+    "tamanos": [
+      "45 cm x 45 cm"
+    ],
+    "personalizacion": [
+      "Estampado"
+    ],
+    "imagenes": [
+      "/images/cojin-luna-1.svg",
+      "/images/cojin-luna-2.svg"
+    ]
   },
   {
-    "id": "sabanas-algodon",
-    "nombre": "Set de Sábanas Algodón",
-    "categoria": "Ropa de cama",
-    "precio": 210000,
-    "descripcion": "Set de sábanas de algodón de 300 hilos, para cama doble.",
-    "imagenes": ["/images/sabanas-algodon-1.svg", "/images/sabanas-algodon-2.svg"]
+    "id": "toalla-playa-test",
+    "nombre": "Toalla Playa Test",
+    "categoria": "Toallas",
+    "descripcion": "Toalla grande de ejemplo, de secado rápido.",
+    "materiales": [
+      "Microfibra"
+    ],
+    "tamanos": [
+      "75 cm x 140 cm"
+    ],
+    "personalizacion": [
+      "Estampado"
+    ],
+    "imagenes": [
+      "/images/toalla-playa-test-1.svg",
+      "/images/toalla-playa-test-2.svg"
+    ]
   },
   {
-    "id": "duvet-blanco",
-    "nombre": "Duvet Blanco",
-    "categoria": "Ropa de cama",
-    "precio": 260000,
-    "descripcion": "Duvet con funda en tono blanco, cálido y fácil de lavar.",
-    "imagenes": ["/images/duvet-blanco-1.svg", "/images/duvet-blanco-2.svg"]
+    "id": "toalla-manos-test",
+    "nombre": "Toalla de Manos Test",
+    "categoria": "Toallas",
+    "descripcion": "Toalla de manos de ejemplo en algodón.",
+    "materiales": [
+      "Algodón"
+    ],
+    "tamanos": [
+      "45 cm x 90 cm"
+    ],
+    "personalizacion": [
+      "Bordado"
+    ],
+    "imagenes": [
+      "/images/toalla-manos-test-1.svg",
+      "/images/toalla-manos-test-2.svg"
+    ]
+  },
+  {
+    "id": "buzo-capota-test",
+    "nombre": "Buzo con Capota Test",
+    "categoria": "Ropa",
+    "descripcion": "Buzo de ejemplo con capota para adultos y niños.",
+    "materiales": [
+      "Felpa suave"
+    ],
+    "tamanos": [
+      "Adultos: S, M, L",
+      "Niños: 4, 8, 10"
+    ],
+    "personalizacion": [
+      "Bordado",
+      "Estampado"
+    ],
+    "imagenes": [
+      "/images/buzo-capota-test-1.svg",
+      "/images/buzo-capota-test-2.svg"
+    ]
+  },
+  {
+    "id": "camiseta-test",
+    "nombre": "Camiseta Test",
+    "categoria": "Ropa",
+    "descripcion": "Camiseta de ejemplo en algodón.",
+    "materiales": [
+      "Algodón"
+    ],
+    "tamanos": [
+      "S",
+      "M",
+      "L"
+    ],
+    "personalizacion": [
+      "Estampado"
+    ],
+    "imagenes": [
+      "/images/camiseta-test-1.svg",
+      "/images/camiseta-test-2.svg"
+    ]
+  },
+  {
+    "id": "gorra-test",
+    "nombre": "Gorra Test",
+    "categoria": "Accesorios",
+    "descripcion": "Gorra de ejemplo con ajuste trasero.",
+    "materiales": [
+      "Algodón"
+    ],
+    "tamanos": [
+      "Talla única"
+    ],
+    "personalizacion": [
+      "Bordado"
+    ],
+    "imagenes": [
+      "/images/gorra-test-1.svg",
+      "/images/gorra-test-2.svg"
+    ]
+  },
+  {
+    "id": "medias-test",
+    "nombre": "Medias Test",
+    "categoria": "Accesorios",
+    "descripcion": "Medias de ejemplo con diseño estampado.",
+    "materiales": [
+      "Poliéster"
+    ],
+    "tamanos": [
+      "Talla única"
+    ],
+    "personalizacion": [
+      "Estampado"
+    ],
+    "imagenes": [
+      "/images/medias-test-1.svg",
+      "/images/medias-test-2.svg"
+    ]
   }
 ]

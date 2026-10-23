@@ -8,7 +8,7 @@ export default function Footer() {
         <ul className="mt-4 flex flex-col gap-2 text-gray-600 sm:flex-row sm:justify-center sm:gap-8">
           <li>
             <a
-              href="https://instagram.com/lunaonline"
+              href="https://instagram.com/lunaonline_test"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent"
@@ -27,8 +27,8 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="mailto:hola@lunaonline.co" className="hover:text-accent">
-              hola@lunaonline.co
+            <a href="mailto:hola@lunaonline.test" className="hover:text-accent">
+              hola@lunaonline.test
             </a>
           </li>
         </ul>

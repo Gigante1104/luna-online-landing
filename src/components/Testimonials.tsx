@@ -2,17 +2,17 @@ const testimonials = [
   {
     nombre: "María Fernanda R.",
     ciudad: "Bogotá",
-    texto: "La cobija es suavísima y llegó en dos días. Ya pedí otra para mi mamá.",
+    texto: "La cobija bordada con el nombre de mi hija quedó hermosa y es suavísima.",
   },
   {
     nombre: "Andrés C.",
     ciudad: "Medellín",
-    texto: "Muy buena atención por WhatsApp y los cojines se ven igual que en las fotos.",
+    texto: "Muy buena atención por WhatsApp y los cojines estampados quedaron igual al diseño que envié.",
   },
   {
     nombre: "Laura y Camilo",
     ciudad: "Cali",
-    texto: "Renovamos la ropa de cama de toda la casa. Calidad excelente por el precio.",
+    texto: "Pedimos buzos para toda la familia y la calidad es excelente.",
   },
 ];
 
